@@ -1,0 +1,433 @@
+.frame {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #e5e5e5;
+
+}
+
+.frame .main_frame {
+    position: relative;
+    width: 1440px;
+    height: 1312;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2px;
+    background: #f7f6b9;
+}
+
+.main_frame .left_frame {
+    position: relative;
+    width: 305px;
+    height: 1315px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.main_frame .left_frame .left_1 {
+    position: relative;
+    width: 228px;
+    height: 267px;
+    margin-top: 50px;
+    margin-left: 37px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_frame .left_frame .left_1 .left_1_1 {
+    display: flex;
+    flex-direction: column;
+    width: 156.16px;
+    height: 142.53px;
+    margin-bottom: 29.46px;
+}
+.main_frame .left_frame .left_1 .left_1_2 {
+    Width: 64px;
+    Height: 20.85px;
+    margin-bottom: 6.65px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    color: #2B2B2B;
+}
+
+.main_frame .left_frame .left_1 .left_1_3 {
+    position: relative;
+    width: 147.84px;
+    height: 25.65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern off";
+}
+
+.main_frame .left_frame .left_1 .left_1_4 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 238px;
+    margin-top: 19px;
+
+
+}
+
+
+.main_frame .left_frame .left_1 .left_1_4 .link_href {
+    text-decoration: none;
+    color: black;
+}
+
+.main_frame .left_frame .left_1 .left_1_4 .icon {
+    position: relative;
+    width: 24.99px;
+    height: 22.8px;
+    border-radius: 50%;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+    background: #ffb400;
+}
+
+.main_frame .left_frame .left_1 .left_1_4 .icon-1 {
+    position: relative;
+    left: 29.17%;
+    right: 27.08%;
+    margin-top: 5.86px;
+}
+
+
+.main_frame .left_frame .marginer {
+    position: relative;
+    width: 220px;
+    height: 0px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 39px;
+    border: 1.5px solid #f0f0f6;
+}
+
+.main_frame .left_frame .left_2 {
+    position: relative;
+    width: 221px;
+    height: 126px;
+    margin-left: 44px;
+    flex-direction: column;
+}
+
+.main_frame .left_2_1 {
+    position: relative;
+    width: 221px;
+    height: 25px;
+    padding-top: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_frame .left_frame .left_2 .left_2_1 .left_2_left {
+    Width: 78px;
+    Height: 24px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #2b2b2b;
+    background-color: rgb(235, 162, 52);
+}
+
+.main_frame .left_frame .left_2 .left_2_1 .left_2_right {
+    color: rgb(24, 186, 24);
+}
+
+
+.main_frame .left_frame .left_3 {
+    position: relative;
+    width: 220px;
+    height: 153px;
+    margin-top: 25px;
+    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_frame .left_3_skill {
+    Width: 95px;
+    Height: 22px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124%;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #2b2b2b;
+}
+
+.main_frame .left_frame .left_4 {
+    position: relative;
+    width: 220px;
+    height: 252px;
+    margin-top: 25px;
+    margin-left: 45px;
+}
+
+.main_frame .left_frame .left_5 {
+    position: relative;
+    width: 186px;
+    height: 148px;
+    margin-top: 10px;
+    margin-left: 45px;
+}
+
+.main_frame .left_frame .left_5 .left_5_value {
+    Width: 186px;
+    Height: 24px;
+    margin-bottom: 4px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 123.6%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-transform: capitalize;
+    color: #2B2B2B;
+
+}
+
+/* ============================================ */
+
+.main_frame .midd_frame {
+    position: relative;
+    width: 970px;
+    height: 1259px;
+    margin-left: 30px;
+    margin-right: 27px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_frame .midd_frame .midd_top {
+    position: relative;
+    width: 971px;
+    height: 464px;
+    display: flex;
+    flex-direction: row;
+    background: white;
+
+}
+
+.main_frame .midd_frame .midd_top .midd_left {
+    height: 294px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+
+}
+
+
+
+.main_frame .midd_frame .midd_top .midd_left_1 {
+    Width: 500px;
+    Height: 117px;
+    margin-left: 56px;
+    margin-right: 28px;
+    margin-top: 100px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 123.6%;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: black;
+}
+
+.main_frame .midd_frame .midd_top .midd_left_2 {
+    Width: 425px;
+    Height: 86px;
+    margin-left: 56px;
+    margin-right: 98px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+}
+
+.main_frame .midd_frame .midd_top .midd_left .midd_left_btn {
+    background-color: #e9a023;
+    width: 154px;
+    height: 50px;
+    border: none;
+    border-radius: 3%;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin-top: 23px;
+    margin-left: 61px;
+    cursor: pointer;
+
+}
+
+.main_frame .midd_frame .midd_top .midd_right {
+    position: relative;
+    margin-top: 16px;
+    margin-right: 62px;
+
+}
+
+.main_frame .midd_frame .midd_bot {
+    position: relative;
+    width: 970px;
+    height: 653px;
+    margin-top: 142px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main_frame .midd_frame .midd_bot .midd_bot_ser {
+    Width: 193px;
+    Height: 40px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 123.6%;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: black;
+}
+
+.main_frame .midd_frame .midd_bot .midd_bot_val {
+    Width: 438px;
+    Height: 68px;
+    margin-top: 25px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: black;
+}
+
+.main_frame .midd_frame .midd_bot .midd_bot_list {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    background: white;
+}
+
+.main_frame .midd_frame .midd_bot .midd_bot_list .midd_bot_list_1 {
+    position: relative;
+    width: 310px;
+    height: 231px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px
+}
+
+.main_frame .midd_frame .midd_bot .midd_bot_list .midd_bot_key {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124%;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #2b2b2b;
+}
+
+.main_frame .midd_frame .midd_bot .midd_bot_list .midd_bot_value {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+    color: #2b2b2b;
+}
+
+/* ================================== */
+
+.main_frame .right_frame {
+    position: relative;
+    width: 108px;
+    height: 1315px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.right_frame .right_frame_1 {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.right_frame .right_frame_2 {
+    width: 65px;
+    height: 78px;
+    position: relative;
+    margin-top: 174px;
+    display: flex;
+}
+
+.right_frame .right_frame_3 {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    margin-top: 43px;
+    gap: 43px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+

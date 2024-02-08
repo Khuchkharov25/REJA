@@ -1,9 +1,9 @@
 {
-    "name": "Steve",
+    "name": "Danny",
     "profession": "Software Engineer",
     "age": 20,
     "residence": "S.Korea",
-    "adress": "S.Korea, Busan",
+    "adress": "S.Korea, Seoul",
     "language": ["Uzbek", "Korean", "English"],
     "skills": ["Html", "Css", "js", "NodeJs", "Python"],
     "extra_skills": ["Bootstrap, Materialize", "Styling, Sass", "Django, Flask", "GIT Knowledge"],

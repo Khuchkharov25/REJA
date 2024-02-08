@@ -22,7 +22,7 @@
 
                 <div class="left_1">
                     <div class="left_1_1">
-                        <img src="images/profile.png"
+                        <img class="p_img" src="images/profile.jpg"
                           width="156px"
                           height="142px" 
                           alt=""
@@ -87,21 +87,21 @@
                     <div class="left_3_skill">Languages</div>
                     <div>
                         <div class="left_2_1">
-                            <div>Uzbek</div>
+                            <div><%=user.language[0]%></div>
                             <div>100%</div>
                         </div>
                         <div><img src="icons/p100.svg"/></div>
                     </div>
                     <div>
                         <div class="left_2_1">
-                            <div>Korean</div>
+                            <div><%=user.language[1]%></div>
                             <div>80%</div>
                         </div>
                         <div><img src="icons/p80.svg"/></div>
                     </div>
                     <div>
                         <div class="left_2_1">
-                            <div>English</div>
+                            <div><%=user.language[2]%></div>
                             <div>60%</div>
                         </div>
                         <div><img src="icons/p60.svg"/></div>
@@ -112,35 +112,35 @@
                     <div class="left_3_skill">Skills</div>
                     <div>
                         <div class="left_2_1">
-                            <div>Html</div>
+                            <div><%=user.skills[0]%></div>
                             <div>90%</div>
                         </div>
                         <div><img src="icons/p90.svg"/></div>
                     </div>
                     <div>
                         <div class="left_2_1">
-                            <div>CSS</div>
+                            <div><%=user.skills[1]%></div>
                             <div>85%</div>
                         </div>
                         <div><img src="icons/p85.svg"/></div>
                     </div>
                     <div>
                         <div class="left_2_1">
-                            <div>Js</div>
+                            <div><%=user.skills[2]%></div>
                             <div>80%</div>
                         </div>
                         <div><img src="icons/p80.svg"/></div>
                     </div>
                     <div>
                         <div class="left_2_1">
-                            <div>PHP</div>
+                            <div><%=user.skills[3]%></div>
                             <div>75%</div>
                         </div>
                         <div><img src="icons/p75.svg"/></div>
                     </div>
                     <div>
                         <div class="left_2_1">
-                            <div>WordPress</div>
+                            <div><%=user.skills[4]%></div>
                             <div>85%</div>
                         </div>
                         <div><img src="icons/p85.svg"/></div>
@@ -151,19 +151,19 @@
                     <div class="left_3_skill">Extra Skills</div>
                     <div class="left_5_value">
                         <div><img src="icons/icon.svg"/></div>
-                        <div>Bootstrap, Materialize</div>
+                        <div><%=user.extra_skills[0]%></div>
                     </div>
                     <div class="left_5_value">
                         <div><img src="icons/icon.svg"/></div>
-                        <div>Stylus, Sass, Less</div>
+                        <div><%=user.extra_skills[1]%></div>
                     </div>
                     <div class="left_5_value">
                         <div><img src="icons/icon.svg"/></div>
-                        <div>Gulp, Webpack, Grunt</div>
+                        <div><%=user.extra_skills[2]%></div>
                     </div>
                     <div class="left_5_value">
                         <div><img src="icons/icon.svg"/></div>
-                        <div>Git Knowledge</div>
+                        <div><%=user.extra_skills[3]%></div>
                     </div>
                 </div>
                 <div class="marginer"></div>
@@ -188,7 +188,7 @@
                         <input type="button" class="midd_left_btn" value="HIRE ME &rarr;">
                     </div>
                     <div class="midd_right">
-                        <img src="images/portfolio.jpg"
+                        <img src="images/portfolio.jpeg"
                         width="326px"
                         height="446px"
                         alt=""

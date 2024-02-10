@@ -1,19 +1,46 @@
-// A task 
-console.log("Function letterida 'x' harfi nectaligini hisoblaymiz");
+// B task
 
-
-let count = 0;
-
-function countLetter(a, b ) {
-    for( let i = 0; i <= a.length; i++) {
-        if(a.charAt(i) == b) {
-            count++;
-        }
+function countDigits(text) {
+    const digitMatches = text.match(/\d/g);
+    if (digitMatches) {
+      return digitMatches.length;
+    } else {
+      return 0;
     }
-    return count;
-}
+  }
+  
+  console.log(`textdagi raqamlar soni:${countDigits("ad2a54y79wet0sfgb9")}`);
 
-console.log(countLetter("engineer", "e"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// A task 
+// console.log("Function letterida 'x' harfi nectaligini hisoblaymiz");
+
+
+// let count = 0;
+
+// function countLetter(a, b ) {
+//     for( let i = 0; i <= a.length; i++) {
+//         if(a.charAt(i) == b) {
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+
+// console.log(countLetter("engineer", "e"));
  
 
 // Event loop va callback

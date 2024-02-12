@@ -1,27 +1,17 @@
 // B task
 
-function countDigits(text) {
-    const digitMatches = text.match(/\d/g);
-    if (digitMatches) {
-      return digitMatches.length;
-    } else {
-      return 0;
-    }
-  }
+// function countDigits(text) {
+//     const digitMatches = text.match(/\d/g);
+//     if (digitMatches) {
+//       return digitMatches.length;
+//     } else {
+//       return 0;
+//     }
+//   }
   
-  console.log(`textdagi raqamlar soni:${countDigits("ad2a54y79wet0sfgb9")}`);
+//   console.log(`textdagi raqamlar soni:${countDigits("ad2a54y79wet0sfgb9")}`);
 
-
-
-
-
-
-
-
-
-
-
-
+// Explanation 
 
 
 

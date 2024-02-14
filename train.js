@@ -1,3 +1,44 @@
+// D task 
+const moment = require("moment");
+const time = moment().format("HH:mm")
+class shop {
+    kebab;
+    lavash;
+    cola;
+
+    constructor(kebab, lavash, cola) {
+        this.kebab = kebab;
+        this.lavash = lavash;
+        this.cola = cola;
+    }
+    
+    qoldiq(){
+        console.log(`Hozir ${time}da ${this.kebab}ta kebab, ${this.lavash}ta lavash va ${this.cola}ta cola mavjud`);
+    }
+    sotmoq(kebab){
+        this.kebab -= kebab;
+        console.log(`biz ${kebab}ta kebab sotdik va Hozir ${time}da ${this.kebab}ta kebab, ${this.lavash}ta lavash va ${this.cola}ta cola qoldi `);
+    }
+    qabul(cola){
+        this.cola += cola;
+        console.log(`biz ${cola}ta cola qabul qildik va Hozir ${time}da ${this.kebab}ta kebab, ${this.lavash}ta lavash va ${this.cola}ta cola boldi `);
+    }
+}
+
+ 
+
+ const myShop = new shop(4,5,2);
+ myShop.qoldiq();
+ myShop.sotmoq(3);
+ myShop.qabul(4);
+
+
+
+
+
+
+
+
 // B task
 
 // function countDigits(text) {

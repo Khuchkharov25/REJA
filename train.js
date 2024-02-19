@@ -1,17 +1,27 @@
-// C task
-function checkContent(a, b) {
+// E task 
+function getReverse(str){
+    const str_1 = str.split('').reverse().join('');
+    return str_1;
+}
+console.log(getReverse("Hello"));
 
-    const a1 = a.split('').sort().join('');
-    const b1 = b.split('').sort().join('');
+
+
+
+// C task
+// function checkContent(a, b) {
+
+//     const a1 = a.split('').sort().join('');
+//     const b1 = b.split('').sort().join('');
     
-        if (a1 === b1) {
-            return true;
-        } else {
-            return false;
-        }
-    }
+//         if (a1 === b1) {
+//             return true;
+//         } else {
+//             return false;
+//         }
+//     }
     
-    console.log(checkContent("mitgroup", "gmtiprou"));
+//     console.log(checkContent("mitgroup", "gmtiprou"));
 
 
 

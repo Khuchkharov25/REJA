@@ -1,9 +1,26 @@
-// E task 
-function getReverse(str){
-    const str_1 = str.split('').reverse().join('');
-    return str_1;
+// F Task
+
+function getReverse(double){
+    const srt = double.split('');
+    for(let i = 0; i <= srt.length; i++){
+       for(let j = i + 1; j <= srt.length; j++){
+        if(srt[i] == srt[j]) return true;
+       }
+    }
+    return false;
 }
-console.log(getReverse("Hello"));
+const findDoublers = getReverse('hello');
+console.log(findDoublers);
+
+
+
+
+// E task 
+// function getReverse(str){
+//     const str_1 = str.split('').reverse().join('');
+//     return str_1;
+// }
+// console.log(getReverse("Hello"));
 
 
 

@@ -1,16 +1,56 @@
+// G Task
+
+
+const getIndex = [5, 21, 12, 20, 8];
+
+function getHighestIndex(getIndex){
+    let index = getIndex[0];
+    for(let i = 0; i <= getIndex.length; i++){
+        if(index < getIndex[i]) index = getIndex[i];
+    }
+    return index;
+}
+console.log(getHighestIndex(getIndex));
+
+// // Chellange
+
+// const animal_list = ['fox','ant', 'bird', 'lion', 'wolf', 'deer', 'bear', 'frog', 'hen', 'mole', 'duck', 'goat', 'dog', 'cat'];
+
+// function findAnimals(txt){
+//    const sortTxt = txt.split('').sort().join('');
+//    return animal_list.filter((animals) => {
+//     const sortAnimals = animals.split('').sort().join('');
+    
+//     for(let i of sortAnimals){
+//         console.log(i);
+//         if(!sortTxt.includes(i)){
+//             return false;
+//         }
+//     }
+
+//     return true;
+//    })
+// }
+// const javob = findAnimals('dgoat');
+// console.log(javob);
+
+
+    
+
+
 // F Task
 
-function getReverse(double){
-    const srt = double.split('');
-    for(let i = 0; i <= srt.length; i++){
-       for(let j = i + 1; j <= srt.length; j++){
-        if(srt[i] == srt[j]) return true;
-       }
-    }
-    return false;
-}
-const findDoublers = getReverse('hello');
-console.log(findDoublers);
+// function getReverse(double){
+//     const srt = double.split('');
+//     for(let i = 0; i <= srt.length; i++){
+//        for(let j = i + 1; j <= srt.length; j++){
+//         if(srt[i] == srt[j]) return true;
+//        }
+//     }
+//     return false;
+// }
+// const findDoublers = getReverse('hello');
+// console.log(findDoublers);
 
 
 

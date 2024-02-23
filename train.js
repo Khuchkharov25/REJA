@@ -3,13 +3,11 @@
 
 const getIndex = [5, 21, 12, 20, 8];
 
-const arr = [5, 21, 12, 20, 8];
+const largest = Math.max(...getIndex);
 
-const max = Math.max(...arr);
+const getHighestIndex = getIndex.indexOf(largest);
 
-const largest = arr.indexOf(max);
-
-console.log(largest);
+console.log(getHighestIndex);
 
 // Buni indexda return qilomadim
 /////////////////////////////////////////////////////

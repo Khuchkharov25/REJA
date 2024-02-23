@@ -3,14 +3,25 @@
 
 const getIndex = [5, 21, 12, 20, 8];
 
-function getHighestIndex(getIndex){
-    let index = getIndex[0];
-    for(let i = 0; i <= getIndex.length; i++){
-        if(index < getIndex[i]) index = getIndex[i];
-    }
-    return index;
-}
-console.log(getHighestIndex(getIndex));
+const arr = [5, 21, 12, 20, 8];
+
+const max = Math.max(...arr);
+
+const largest = arr.indexOf(max);
+
+console.log(largest);
+
+// Buni indexda return qilomadim
+/////////////////////////////////////////////////////
+// function getHighestIndex(getIndex){
+//     let index = getIndex[0];
+//     for(let i = 0; i <= getIndex.length; i++){
+//         if(index < getIndex[i]) index = getIndex[i];
+//     }
+//     return index;
+// }
+// console.log(getHighestIndex(getIndex));
+///////////////////////////////////////////////////////
 
 // // Chellange
 
